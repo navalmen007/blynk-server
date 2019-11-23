@@ -2,7 +2,7 @@ version: 2
     jobs:
       build:
         environment:
-          IMAGE_NAME: mpherg/blynk-server:latest
+          IMAGE_NAME: navalmen007/blynk-server
         docker:
           - image: mpherg/blynk-server:latest
         steps:
