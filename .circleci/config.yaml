@@ -1,1 +1,5 @@
-qsdf
+version: 2
+jobs:
+  build:
+    docker:
+      - image: mpherg/blynk-server:latest
